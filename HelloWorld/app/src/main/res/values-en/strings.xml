@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="ola">Hello</string>
+    <string name="ver_mensagem">See Message</string>
+</resources>

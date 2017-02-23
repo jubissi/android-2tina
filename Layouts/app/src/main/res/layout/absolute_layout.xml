@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <!-- Não é recomendado usa AbsoluteLayout porque ele não é modular/responsivo-->
+
+    <Button
+        android:text="Button"
+        android:layout_width="203dp"
+        android:layout_height="97dp"
+        android:layout_x="147dp"
+        android:layout_y="170dp"
+        android:id="@+id/button" />
+</AbsoluteLayout>

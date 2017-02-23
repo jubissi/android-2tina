@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"><!-- preenche espaço da segunda coluna (começa em 0) -->
+    <!-- funciona como tabela no html -->
+    <TableRow> <!-- as colunas sao as quantidades de elementos -->
+        <TextView android:text="Nome:" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow> <!-- as colunas sao as quantidades de elementos -->
+        <TextView android:text="Digite seu e-mail:"
+            android:ems="4"/> <!-- unidade de medida de fonte -->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText" />
+    </TableRow>
+</TableLayout>

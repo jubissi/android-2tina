@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="ola">Olá</string>
+    <string name="ver_mensagem">Ver Mensagem</string>
+    <string name="lblNome">Digite seu nome:</string>
+    <string name="txtBotaoEnviar">Enviar</string>
+</resources>
