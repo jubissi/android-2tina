@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pet Shop</string>
+    <string name="descricao_app">Escolha qual cachorro deseja:</string>
+    <string name="item1">Border Collie R$ 800,00</string>
+    <string name="item2">Pit Bull R$ 700,00</string>
+    <string name="item3">Pastor Alemão R$ 700,00</string>
+    <string name="item4">Pastor canadense R$ 800,00</string>
+    <string name="item_femea">Fêmea</string>
+    <string name="item_adest">Adestrado</string>
+    <string name="item_vacinas">Com todas as vacinas em dia</string>
+    <string name="calcular">Calcular</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:orientation="vertical"
+    tools:context="ex3botoes.fiap.com.br.a2tina_android_ex03_botoes.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/lblN"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/tamanho"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/decrementar"
+            android:layout_weight="1"
+            android:textColor="@color/colorBranco"
+            android:onClick="decrementar"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:text="@string/increment"
+            android:textColor="@color/colorBranco"
+            android:onClick="incrementar"
+            />
+
+    </LinearLayout>
+</LinearLayout>

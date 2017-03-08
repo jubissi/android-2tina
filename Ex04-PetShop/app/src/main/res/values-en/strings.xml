@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pet Shop</string>
+    <string name="descricao_app">Choose which dog to target:</string>
+    <string name="item1">Border Collie R$ 800,00</string>
+    <string name="item2">Pit Bull R$ 700,00</string>
+    <string name="item3">German Shepherd R$ 700,00</string>
+    <string name="item4">Canadian Shepherd R$ 800,00</string>
+    <string name="item_femea">Female</string>
+    <string name="item_adest">Tacked</string>
+    <string name="item_vacinas">With all vaccines up to date</string>
+    <string name="calcular">Calculate</string>
+</resources>

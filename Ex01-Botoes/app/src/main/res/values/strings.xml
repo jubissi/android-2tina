@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exercicio 03 - Botoes</string>
+    <string name="increment">Incrementar</string>
+    <string name="decrementar">Decrementar</string>
+</resources>
