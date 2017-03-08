@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoginSharedPreferences</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="salvar_senha">Salva Senha</string>
+    <string name="usuario_incorreto">\"Usuário ou senha incorreta!\"</string>
+    <string name="login">Login</string>
+    <string name="dados">Dados</string>
+</resources>
