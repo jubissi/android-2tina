@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PickerAndDialogs</string>
+    <string name="salvar">Salvar</string>
+    <string name="data_escolhida">Data Escolhida</string>
+    <string name="titulo">Titulo</string>
+    <string name="msg">Mensagem qualquer</string>
+    <string name="fechar">Fechar</string>
+    <string name="ok">Ok</string>
+    <string name="clicou_em_fechar">O usuário clicou em fechar</string>
+    <string name="clicou_em_ok">Usuário clicou em OK</string>
+</resources>
