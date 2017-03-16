@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Sobre"
+        android:id="@+id/mnSobre"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_mood_black_24dp"/>
+    <item android:title="Buscar"
+        android:id="@+id/mnSearch"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_black_24dp"/>
+    <item android:title="Atualizar"
+        android:id="@+id/mnRefresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_autorenew_black_24dp"/>
+</menu>
