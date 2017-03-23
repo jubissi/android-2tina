@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- schema tools só é visivel no android studio, para debugar só -->
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imgContato"
+        tools:src="@drawable/female1"
+        android:layout_marginRight="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNome"
+        tools:text="Nome do contato"
+        android:layout_toRightOf="@id/imgContato"
+        android:layout_alignTop="@id/imgContato"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSobre"
+        tools:text="Sobre o contato"
+        android:layout_toRightOf="@id/imgContato"
+        android:layout_alignBottom="@id/imgContato"/>
+
+</RelativeLayout>
