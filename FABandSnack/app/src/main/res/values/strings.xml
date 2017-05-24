@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FABandSnack</string>
+    <string name="eu_sou">Eu sou o SnackBar</string>
+    <string name="acao">Ação</string>
+</resources>
